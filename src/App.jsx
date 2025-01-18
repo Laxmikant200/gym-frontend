@@ -10,6 +10,8 @@ import Gallery from "./components/Gallery";
 import Pricing from "./components/Pricing";
 import Contact from "./components/Contact";
 import BMICalculator from "./components/BMICalculator";
+import DietPlan from "./components/DietPlan";
+import WorkoutTracker from "./components/WorkoutTracker";
 import Footer from "./components/Footer";
 
 const App = () => {
@@ -22,6 +24,8 @@ const App = () => {
       <Pricing />
       <Contact />
       <BMICalculator />
+      <DietPlan />
+      <WorkoutTracker />
       <Footer />
       <ToastContainer theme="dark" position="top-center" />
       
